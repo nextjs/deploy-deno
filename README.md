@@ -13,7 +13,7 @@ deno install -gArf jsr:@deno/deployctl
 2. Move the statics not copied into the standalone output directory:
 ```bash
 cp -r public .next/standalone/public
-# cp -r .next/static .next/standalone/.next/static
+cp -r .next/static .next/standalone/.next/static
 # Deno needs the explicit .cjs extension to interpret the file as CommonJS
 mv .next/standalone/server.js .next/standalone/server.cjs
 ```
