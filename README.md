@@ -70,7 +70,7 @@ To deploy your `create-next-app` to Deno Deploy:
 1. Build your app
 
 ```bash
-deno build
+deno task build
 ```
 
 2. Deploy
